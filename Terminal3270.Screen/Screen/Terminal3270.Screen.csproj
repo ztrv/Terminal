@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- No -windows suffix. The kernel32 calls are DllImports, not assembly
+         references, so nothing forces an OS target on this library or on
+         anything that references it. -->
+    <TargetFramework>net10.0</TargetFramework>
+
+    <RootNamespace>Terminal3270.Screen</RootNamespace>
+    <AssemblyName>Terminal3270.Screen</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>

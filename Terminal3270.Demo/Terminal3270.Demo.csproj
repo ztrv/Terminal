@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+
+    <!-- Exe, not WinExe. WinExe detaches from the console and ConsoleVtSession
+         throws on startup. -->
+    <OutputType>Exe</OutputType>
+
+    <RootNamespace>Terminal3270.Demo</RootNamespace>
+    <AssemblyName>Terminal3270.Demo</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Terminal3270.Screen\Terminal3270.Screen.csproj" />
+  </ItemGroup>
+
+</Project>

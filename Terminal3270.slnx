@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Terminal3270.Screen/Terminal3270.Screen.csproj" />
+    <Project Path="src/Terminal3270.Demo/Terminal3270.Demo.csproj" />
+  </Folder>
+</Solution>
